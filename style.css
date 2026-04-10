@@ -2049,13 +2049,11 @@ section {
     padding: 14px 0 24px;
   }
 
-  .hero-premium-text {
-  order: 1;
-}
-
-.hero-image-wrap {
-  order: 2;
-}
+  .hero-premium-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
 
   .hero-premium-text {
     text-align: center;
