@@ -1840,11 +1840,6 @@ section {
     justify-content: center;
   }
 
-  .hero-premium-card {
-    max-width: 420px;
-    margin: 0 auto;
-  }
-
   .hero-premium-image {
     height: 430px;
   }
