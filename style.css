@@ -1850,105 +1850,6 @@ section {
   }
 }
 
-@media (max-width: 600px) {
-  .hero-premium {
-    padding: 18px 0 34px;
-  }
-
-  .hero-premium-grid {
-    gap: 20px;
-  }
-
-  .hero-premium-title {
-    font-size: 2.08rem;
-    line-height: 1.08;
-  }
-
-  .hero-premium-subtitle {
-    font-size: 1rem;
-    margin-bottom: 14px;
-  }
-
-  .hero-benefits {
-    gap: 8px;
-    margin-bottom: 18px;
-  }
-
-  .hero-benefits span {
-    width: 100%;
-    justify-content: center;
-    font-size: 0.86rem;
-    padding: 10px 12px;
-  }
-
-  .hero-premium-actions {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .hero-premium-actions .btn {
-    width: 100%;
-    padding: 14px 18px;
-  }
-
-  .hero-proof {
-    font-size: 0.84rem;
-    margin-bottom: 14px;
-  }
-
-  .hero-premium-community {
-    margin-bottom: 14px;
-  }
-
-  .hero-social {
-    justify-content: center;
-    gap: 8px;
-  }
-
-  .hero-social a {
-    flex: 1 1 100%;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .hero-premium-points {
-    gap: 8px;
-    justify-content: center;
-  }
-
-  .hero-premium-points span {
-    width: 100%;
-    justify-content: center;
-    font-size: 0.84rem;
-    padding: 9px 12px;
-  }
-
-  .hero-premium-card {
-    padding: 12px;
-    border-radius: 24px;
-  }
-
-  .hero-premium-image {
-    height: 320px;
-    border-radius: 18px;
-  }
-
-  .hero-preview-overlay {
-    left: 14px;
-    right: 14px;
-    bottom: 14px;
-    padding: 14px 12px;
-    border-radius: 18px;
-  }
-
-  .hero-preview-overlay h4 {
-    font-size: 1rem;
-  }
-
-  .hero-preview-overlay span {
-    font-size: 0.84rem;
-  }
-}
 /* ===== VIDEO NO HERO ===== */
 
 .hero-premium-image {
@@ -1985,7 +1886,7 @@ section {
     border-radius: 18px;
   }
 }
-/* ===== MOBILE HOME AJUSTADO DE VERDADE ===== */
+/* ===== MOBILE HOME NOVO E LIMPO ===== */
 @media (max-width: 700px) {
   .header {
     position: sticky;
@@ -1995,15 +1896,15 @@ section {
 
   .nav {
     min-height: auto;
-    padding: 10px 0 12px;
+    padding: 10px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
   }
 
   .logo {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     text-align: center;
   }
 
@@ -2015,7 +1916,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 6px;
     padding: 0;
     white-space: normal;
     overflow: visible;
@@ -2030,38 +1931,44 @@ section {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 7px 12px;
+    padding: 6px 10px;
     border-radius: 999px;
     background: transparent;
     border: 1px solid #f0d4e0;
-    font-size: 0.88rem;
+    font-size: 0.8rem;
     min-width: 0;
   }
 
   .btn-topo {
     display: inline-flex;
     width: auto;
-    padding: 9px 18px;
-    font-size: 0.9rem;
+    padding: 8px 16px;
+    font-size: 0.86rem;
   }
 
   .hero-premium {
-    padding: 14px 0 24px;
+    padding: 12px 0 24px;
   }
 
   .hero-premium-grid {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 16px;
   }
 
   .hero-premium-text {
+    order: 1;
     text-align: center;
     max-width: 100%;
   }
 
+  .hero-image-wrap,
+  .hero-premium-image-wrap {
+    order: 2;
+  }
+
   .hero-premium-title {
-    font-size: 1.82rem;
+    font-size: 1.9rem;
     line-height: 1.08;
     margin-bottom: 10px;
   }
@@ -2087,8 +1994,8 @@ section {
   }
 
   .hero-premium-actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 8px;
     margin-bottom: 10px;
   }
@@ -2097,10 +2004,6 @@ section {
     width: 100%;
     padding: 12px 12px;
     font-size: 0.92rem;
-  }
-
-  .hero-premium-actions .btn.terciario {
-    grid-column: 1 / -1;
   }
 
   .hero-proof {
@@ -2127,20 +2030,20 @@ section {
     justify-content: center;
     text-align: center;
     padding: 9px 8px;
-    font-size: 0.86rem;
+    font-size: 0.84rem;
   }
 
-  /* aqui está a correção do vídeo */
   .hero-premium-card {
     width: 100%;
-    max-width: 320px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 10px;
     border-radius: 22px;
   }
 
   .hero-premium-image {
-    height: 420px;
+    width: 100%;
+    height: 300px;
     border-radius: 18px;
   }
 
