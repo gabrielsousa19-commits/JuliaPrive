@@ -1985,7 +1985,7 @@ section {
     border-radius: 18px;
   }
 }
-/* ===== MOBILE HOME MAIS LIMPO ===== */
+/* ===== MOBILE HOME AJUSTADO DE VERDADE ===== */
 @media (max-width: 700px) {
   .header {
     position: sticky;
@@ -1995,7 +1995,7 @@ section {
 
   .nav {
     min-height: auto;
-    padding: 10px 0;
+    padding: 10px 0 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2003,7 +2003,7 @@ section {
   }
 
   .logo {
-    font-size: 1.45rem;
+    font-size: 1.4rem;
     text-align: center;
   }
 
@@ -2016,9 +2016,9 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
+    padding: 0;
     white-space: normal;
     overflow: visible;
-    padding: 0;
   }
 
   .menu li {
@@ -2030,73 +2030,73 @@ section {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 8px 14px;
+    padding: 7px 12px;
     border-radius: 999px;
     background: transparent;
     border: 1px solid #f0d4e0;
-    font-size: 0.9rem;
+    font-size: 0.88rem;
+    min-width: 0;
   }
 
   .btn-topo {
     display: inline-flex;
     width: auto;
-    justify-content: center;
-    padding: 10px 20px;
-    font-size: 0.95rem;
+    padding: 9px 18px;
+    font-size: 0.9rem;
   }
 
   .hero-premium {
-    padding: 16px 0 26px;
+    padding: 14px 0 24px;
   }
 
   .hero-premium-grid {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 14px;
   }
 
   .hero-premium-text {
-    max-width: 100%;
     text-align: center;
+    max-width: 100%;
   }
 
   .hero-premium-title {
-    font-size: 2rem;
-    line-height: 1.06;
-    margin-bottom: 12px;
+    font-size: 1.82rem;
+    line-height: 1.08;
+    margin-bottom: 10px;
   }
 
   .hero-premium-subtitle {
-    font-size: 1rem;
-    line-height: 1.45;
-    margin-bottom: 14px;
+    font-size: 0.96rem;
+    line-height: 1.42;
+    margin-bottom: 12px;
     max-width: 100%;
   }
 
   .hero-benefits {
     gap: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
     justify-content: center;
   }
 
   .hero-benefits span {
     width: 100%;
     justify-content: center;
-    font-size: 0.86rem;
-    padding: 10px 12px;
+    font-size: 0.84rem;
+    padding: 9px 10px;
   }
 
   .hero-premium-actions {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin-bottom: 12px;
+    gap: 8px;
+    margin-bottom: 10px;
   }
 
   .hero-premium-actions .btn {
     width: 100%;
-    padding: 13px 14px;
-    font-size: 0.95rem;
+    padding: 12px 12px;
+    font-size: 0.92rem;
   }
 
   .hero-premium-actions .btn.terciario {
@@ -2104,8 +2104,8 @@ section {
   }
 
   .hero-proof {
-    font-size: 0.84rem;
-    margin-bottom: 10px;
+    font-size: 0.82rem;
+    margin-bottom: 8px;
   }
 
   .hero-premium-community {
@@ -2113,8 +2113,8 @@ section {
   }
 
   .hero-premium-community p {
+    font-size: 0.82rem;
     margin-bottom: 6px;
-    font-size: 0.84rem;
   }
 
   .hero-social {
@@ -2126,59 +2126,64 @@ section {
   .hero-social a {
     justify-content: center;
     text-align: center;
-    padding: 9px 10px;
-    font-size: 0.88rem;
+    padding: 9px 8px;
+    font-size: 0.86rem;
   }
 
+  /* aqui está a correção do vídeo */
   .hero-premium-card {
-    max-width: 100%;
+    width: 100%;
+    max-width: 320px;
     margin: 0 auto;
     padding: 10px;
     border-radius: 22px;
   }
 
   .hero-premium-image {
-    height: 240px;
-    border-radius: 16px;
+    height: 420px;
+    border-radius: 18px;
   }
 
   .hero-video {
-    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
   }
 
   .hero-preview-overlay {
-    left: 12px;
-    right: 12px;
-    bottom: 12px;
-    padding: 12px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    padding: 12px 10px;
     border-radius: 16px;
   }
 
   .hero-preview-overlay h4 {
-    font-size: 0.98rem;
+    font-size: 0.95rem;
     margin-bottom: 4px;
   }
 
   .hero-preview-overlay span {
-    font-size: 0.82rem;
+    font-size: 0.8rem;
   }
 
   .hero-preview-tag {
-    font-size: 0.74rem;
-    padding: 5px 10px;
+    font-size: 0.72rem;
+    padding: 5px 9px;
     margin-bottom: 6px;
   }
 
   .footer {
-    padding: 28px 0;
+    padding: 26px 0;
   }
 
   .footer h2 {
-    font-size: 1.6rem;
+    font-size: 1.55rem;
   }
 
   .footer p,
   .copy {
-    font-size: 0.92rem;
+    font-size: 0.9rem;
   }
 }
