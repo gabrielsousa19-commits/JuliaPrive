@@ -1840,6 +1840,11 @@ section {
     justify-content: center;
   }
 
+  .hero-premium-card {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
   .hero-premium-image {
     height: 430px;
   }
@@ -2082,10 +2087,9 @@ section {
   }
 
   .hero-premium-actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 8px;
-    margin-bottom: 10px;
   }
 
   .hero-premium-actions .btn {
@@ -2128,7 +2132,6 @@ section {
   /* aqui está a correção do vídeo */
   .hero-premium-card {
     width: 100%;
-    max-width: 320px;
     margin: 0 auto;
     padding: 10px;
     border-radius: 22px;
