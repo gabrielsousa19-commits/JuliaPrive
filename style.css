@@ -2133,6 +2133,7 @@ section {
   /* aqui está a correção do vídeo */
   .hero-premium-card {
     width: 100%;
+    max-width: 320px;
     margin: 0 auto;
     padding: 10px;
     border-radius: 22px;
